@@ -8,8 +8,8 @@ class InfoWindows(tkinter.Frame):
 		self.v = tkinter.Variable()
 		entry = tkinter.Entry(frame,textvariable=self.v)
 		entry.pack()
-		text = tkinter.Text(frame)
-		text.pack()
+		self.text = tkinter.Text(frame)
+		self.text.pack()
 
 
 
